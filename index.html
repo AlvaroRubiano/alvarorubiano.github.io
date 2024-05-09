@@ -13,7 +13,7 @@
             <a class="navbar-brand">
                 <img src="imagenes/appstore.svg" alt="Tienda de Soluciones" width="75" height="75" />
                 <span class="navbar-brand mb-0 h1">Alvaro Rubiano</span>
-            </a>  
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -27,29 +27,70 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Militarid</a>
-                    </li>                    
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="imagenes/Diseño-aplicaciones.png" class="d-block w-100" alt="Tienda de Soluciones">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Diseño de aplicaciones</h5>
+                </div>
+            </div>
 
-    <div class="card-group">
-        <div class="card">
-            <img src="imagenes/appstore.svg" class="card-img-top" 
-                 alt="Tienda de Soluciones" height="100" width="100" />
+            <div class="carousel-item" data-bs-interval="10000">
+                <img src="imagenes/Diseño-web.png" class="d-block w-100" alt="Militarid">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Diseño Web</h5>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="10000">
+                <img src="imagenes/Diseño-gráfico.png" class="d-block w-100" alt="Militarid">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Diseño Gráfico</h5>
+                </div>
+            </div>
+
         </div>
-        <div class="card text-success text-center">
-            <h5 class="card-title">Tienda de Soluciones</h5>
-            <p>+57 3203712166 <br />Madrid - Cundinamarca <br />Colombia</p>
-        </div>
-        <div class="card">
-            <img src="imagenes/appstore_militarid.svg" class="card-img-top" 
-                 alt="militarid" width="100" height="100"  />
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Retroceder</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
     </div>
 
 
-    <script src="js/bootstrap.js"></script>
+
+
+        <div class="card-group">
+            <div class="card">
+                <img src="imagenes/appstore.svg" class="card-img-top"
+                     alt="Tienda de Soluciones" height="100" width="100" />
+            </div>
+            <div class="card text-success text-center">
+                <h5 class="card-title">Tienda de Soluciones</h5>
+                <p>+57 3203712166 <br />Madrid - Cundinamarca <br />Colombia</p>
+            </div>
+            <div class="card">
+                <img src="imagenes/appstore_militarid.svg" class="card-img-top"
+                     alt="militarid" width="100" height="100" />
+            </div>
+        </div>
+
+
+        <script src="js/bootstrap.js"></script>
 </body>
 </html>
